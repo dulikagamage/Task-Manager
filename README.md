@@ -4,7 +4,8 @@
  Dulika Gamage 
  
 ## Program Description:   
-This program serves as a basic task manager where you can add, edit, and delete tasks. The tasks also have statuses where you can mark tasks as "Not started", "In progress", or "Completed". This project served as practice for front-end development as I was a bit rusty😆. Going to add onto it in the future by adding dates and a calendar functionality.  
+This program serves as a basic task manager where you can add, edit, and delete tasks. The tasks also have statuses where you can mark tasks as "Not started", "In progress", or "Completed". This project served as practice for front-end development (HMTL, CSS, Javascript) as I was a bit rusty😆. 
+In the future, going to improve it by adding dates and calendar functionality.
 
 ## Install Instructions:
 In your command prompt or terminal navigate to the directory of the project and put:

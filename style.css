@@ -1,0 +1,94 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: lavender;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(79, 79, 170);
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgba(98, 92, 122, 0.5);
+}
+
+.taskManager {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto; 
+}
+
+.card {
+    background: rgb(255, 143, 174);
+    background: linear-gradient(90deg, rgba(255, 143, 174, 1) 0%, rgba(242, 247, 149, 1) 50%, rgba(165, 255, 160, 1) 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+.taskCard {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.taskCard:hover {
+    background-color: #f0f0f0;
+}
+
+.taskCard h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.statusDropdown {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: rgb(79, 79, 170);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+select{
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: rgb(18, 18, 88);
+}
+
+#taskInput{
+    width: 60%;
+    padding: 10px;
+    font-size: 15x;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+

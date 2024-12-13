@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="taskManager">
+        <header class="card">
+            <h1>Task Manager</h1>
+            <form id="taskForm">
+                <input type="text" id="taskInput" placeholder="Enter a task..." required>
+                <select id="taskStatus">
+                    <option value="Not Started">Not Started</option>
+                    <option value="In Progress">In Progress</option>
+                    <option value="Completed">Completed</option>
+                </select>
+                <button type="submit">Add Task</button>
+            </form>
+        </header>
+        <section id="taskContainer"></section>
+    </section>
+    <script src="/script.js"></script>
+</body>
+</html>
+

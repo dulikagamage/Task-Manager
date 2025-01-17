@@ -10,17 +10,17 @@ document.addEventListener('DOMContentLoaded', () => {
     // Event listener for task form submission
     taskForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        const taskText = taskInput.value.trim();
+        const taskText = taskInput.value.trim(); //make sure not empty
         const status = taskStatus.value;
 
-        if (taskText) {
+        if (taskText) { // if there is a value, add the task
             addTask({ text: taskText, status: status });
             taskInput.value = ''; // Clear input
         }
     });
 
-    // Fetch tasks from the backend
-    function fetchTasks() {
+    // Fetch tasks from the backend (json)
+    function fetchTasks() { 
         fetch('/api/tasks')
             .then(response => response.json())
             .then(renderTasks)
